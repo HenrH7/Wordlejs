@@ -117,7 +117,6 @@ const rows = document.getElementsByClassName("row");
 //answer maker
 getRandomWord().then(randomWord => {
   answer = randomWord;
-  console.log(answer);
 }).catch(error => console.error('Error:', error));
 
 //create input boxes
